@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class OddEvenCountFromFile {
     public static void main(String[] args) {
         File file = new File("input.txt");
-        Scanner sc=new Scanner(System.in)
+        Scanner sc=new Scanner(System.in);
         int size=sc.nextInt();
         int arr[]=new arr[size];
 
