@@ -7,11 +7,9 @@ public class Month5 {
         File file = new File("monthinput.txt"); 
         try {
             Scanner sc = new Scanner(file);
-
-            System.out.print("enter the month: ");
+           
             int month = sc.nextInt();
             int days_num = 0;
-            System.out.print("Enter the start day of the month: ");
             int start = sc.nextInt();
 
             if (month == 2) {
