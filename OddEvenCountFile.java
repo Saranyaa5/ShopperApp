@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class OddEvenCountFromFile {
+public class OddEvenCountFile {
     public static void main(String[] args) {
         File file = new File("input.txt");
         Scanner sc=new Scanner(file);
